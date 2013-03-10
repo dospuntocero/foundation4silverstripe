@@ -1,0 +1,11 @@
+// Decent reset for html5 websites
+@import "normalize";
+// Your custom settings file to override Foundation defaults
+@import "settings";
+
+
+@import "foundation";
+
+#main ul{
+ @include inline-list; 
+}
